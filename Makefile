@@ -10,9 +10,6 @@ test:
 testCover:
 	@go test -v ./... -cover
 
-swagger:
-	@"$HOME/go/bin/swag init -g ./src/routes/routes.go"
-
 dockerize:
 	@docker build -t sqlgostructure:latest .
 
