@@ -17,4 +17,4 @@ dockerize:
 	@docker build -t sqlgostructure:latest .
 
 dockerrun:
-	@docker run --name singel -p 2200:2200 sqlgostructure:latest
+	@docker run --name sqlgostructure -p 4000:4000 sqlgostructure:latest
